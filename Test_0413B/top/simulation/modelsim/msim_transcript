@@ -1,0 +1,67 @@
+# Reading F:/quartus13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do top_module_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying F:\quartus13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\quartus13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/led3_module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module led3_module
+# 
+# Top level modules:
+# 	led3_module
+# vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/led2_module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module led2_module
+# 
+# Top level modules:
+# 	led2_module
+# vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/led1_module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module led1_module
+# 
+# Top level modules:
+# 	led1_module
+# vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/led0_module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module led0_module
+# 
+# Top level modules:
+# 	led0_module
+# vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/top_module.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_module
+# 
+# Top level modules:
+# 	top_module
+# 
+# vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/top/../testbench {F:/FPGA_code/Test_0413B/top/../testbench/top_module_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_module_tb
+# 
+# Top level modules:
+# 	top_module_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  top_module_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps top_module_tb 
+# Loading work.top_module_tb
+# Loading work.led0_module
+# Loading work.led1_module
+# Loading work.led2_module
+# Loading work.led3_module
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module top_module_tb at F:/FPGA_code/Test_0413B/top/../testbench/top_module_tb.v line 66
+# Simulation Breakpoint: Break in Module top_module_tb at F:/FPGA_code/Test_0413B/top/../testbench/top_module_tb.v line 66
+# MACRO ./top_module_run_msim_rtl_verilog.do PAUSED at line 21

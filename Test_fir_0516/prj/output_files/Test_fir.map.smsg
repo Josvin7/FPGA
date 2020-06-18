@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at Test_fir.v(49): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at Test_fir.v(135): always construct contains both blocking and non-blocking assignments

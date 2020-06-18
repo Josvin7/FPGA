@@ -1,0 +1,19 @@
+module run_led_tb();
+    reg clk,rst_n;
+    wire [3:0] led;
+
+    initial begin
+      clk=0;
+      forever #10 clk=~clk;     //产生一个50MHZ时钟
+    end
+
+    initial begin
+      rst_n=0;
+      #20  rst_n=1;          //  激励
+    end
+
+ run_led u1(                //例化逻辑设计模块
+      .clk(clk),
+      .rst_n(rst_n),
+      .led(led));
+endmodule

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\FPGA_code\Test_0413\prj\simulation\modelsim
+vled_test
+IgU<RX15N7okL5RAQ5ViWW1
+VbC@b6AIJ_no7i1gmVh0KS3
+Z1 dF:\FPGA_code\Test_0413\prj\simulation\modelsim
+w1586879420
+8F:/FPGA_code/Test_0413/rtl/led_test.v
+FF:/FPGA_code/Test_0413/rtl/led_test.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 PecK>AJWdTPIkLlh<nWgN2
+!s85 0
+!s108 1586879451.327000
+!s107 F:/FPGA_code/Test_0413/rtl/led_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_code/Test_0413/rtl|F:/FPGA_code/Test_0413/rtl/led_test.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413/rtl -O0
+vled_test_tb
+!i10b 1
+!s100 WjclBZJYT@i45>mcJe@_N1
+Iag=f7L=TMAFTIQXM^i>811
+ViJ]K<XJJjdnLO;MV]A>NX1
+R1
+w1586847476
+8F:/FPGA_code/Test_0413/prj/../testbench/led_test_tb.v
+FF:/FPGA_code/Test_0413/prj/../testbench/led_test_tb.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1586879451.682000
+!s107 F:/FPGA_code/Test_0413/prj/../testbench/led_test_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_code/Test_0413/prj/../testbench|F:/FPGA_code/Test_0413/prj/../testbench/led_test_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413/prj/../testbench -O0

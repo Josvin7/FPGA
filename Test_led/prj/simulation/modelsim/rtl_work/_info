@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\FPGA_code\Test_led\prj\simulation\modelsim
+vled_text
+IG:AYZl]OSNA5LUz3I0eK92
+V?V?6bQICCKQLg>9T7[CRi0
+Z1 dF:\FPGA_code\Test_led\prj\simulation\modelsim
+w1586875589
+8F:/FPGA_code/Test_led/rtl/led_text.v
+FF:/FPGA_code/Test_led/rtl/led_text.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 ]`ei835Y`D<2ElBNB67:`0
+!s85 0
+!s108 1586875621.064000
+!s107 F:/FPGA_code/Test_led/rtl/led_text.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_code/Test_led/rtl|F:/FPGA_code/Test_led/rtl/led_text.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+F:/FPGA_code/Test_led/rtl -O0
+vled_text_tb
+!i10b 1
+!s100 PA`8P6Z?fCc9al@JN@4YT0
+IU^nBljnN?6]H0PEQTM?Q72
+VBS<0:<HigXi7V]6IPV9B@2
+R1
+w1586873001
+8F:/FPGA_code/Test_led/prj/../testbench/led_text_tb.v
+FF:/FPGA_code/Test_led/prj/../testbench/led_text_tb.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1586875621.482000
+!s107 F:/FPGA_code/Test_led/prj/../testbench/led_text_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_code/Test_led/prj/../testbench|F:/FPGA_code/Test_led/prj/../testbench/led_text_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+F:/FPGA_code/Test_led/prj/../testbench -O0

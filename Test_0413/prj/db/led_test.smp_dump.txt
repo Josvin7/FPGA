@@ -1,0 +1,7 @@
+
+State Machine - |led_test|state
+Name state.CHECK_led3 state.CHECK_led2 state.CHECK_led1 state.CHECK_led0 
+state.CHECK_led0 0 0 0 0 
+state.CHECK_led1 0 0 1 1 
+state.CHECK_led2 0 1 0 1 
+state.CHECK_led3 1 0 0 1 

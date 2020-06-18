@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Apr 14 23:50:24 2020
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : led_test
+Top-level Entity Name : led_test
+Family : Cyclone IV E
+Total logic elements : 13
+    Total combinational functions : 10
+    Dedicated logic registers : 12
+Total registers : 12
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

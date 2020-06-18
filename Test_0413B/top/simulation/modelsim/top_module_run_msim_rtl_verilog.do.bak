@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/led3_module.v}
+vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/led2_module.v}
+vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/led1_module.v}
+vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/led0_module.v}
+vlog -vlog01compat -work work +incdir+F:/FPGA_code/Test_0413B/rtl {F:/FPGA_code/Test_0413B/rtl/top_module.v}
+
